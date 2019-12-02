@@ -1,0 +1,67 @@
+package br.com.prog3.trabalhofinal.repository;
+
+import java.util.Optional;
+
+import org.springframework.stereotype.Repository;
+
+import br.com.prog3.trabalhofinal.domain.Categoria;
+
+@Repository
+public class CategoriaRepository implements ICategoriaRepository {
+
+	@Override
+	public <S extends Categoria> S save(S entity) {
+		return null;
+	}
+
+	@Override
+	public <S extends Categoria> Iterable<S> saveAll(Iterable<S> entities) {
+		return null;
+	}
+
+	@Override
+	public Optional<Categoria> findById(Long id) {
+		return null;
+	}
+
+	@Override
+	public boolean existsById(Long id) {
+		return false;
+	}
+
+	@Override
+	public Iterable<Categoria> findAll() {
+		return null;
+	}
+
+	@Override
+	public Iterable<Categoria> findAllById(Iterable<Long> ids) {
+		return null;
+	}
+
+	@Override
+	public long count() {
+		return 0;
+	}
+
+	@Override
+	public void deleteById(Long id) {
+
+	}
+
+	@Override
+	public void delete(Categoria entity) {
+
+	}
+
+	@Override
+	public void deleteAll(Iterable<? extends Categoria> entities) {
+
+	}
+
+	@Override
+	public void deleteAll() {
+
+	}
+
+}

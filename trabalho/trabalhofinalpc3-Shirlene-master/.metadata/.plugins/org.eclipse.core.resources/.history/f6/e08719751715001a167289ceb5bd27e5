@@ -1,0 +1,8 @@
+package br.com.prog3.trabalhofinal.repository;
+
+@Repository
+public class ProdutoRepository {
+
+	
+
+}

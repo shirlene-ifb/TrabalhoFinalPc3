@@ -1,0 +1,8 @@
+package br.com.prog3.trabalhofinal.repository;
+import org.springframework.data.repository.CrudRepository;
+
+import br.com.prog3.trabalhofinal.domain.*;
+
+public interface IProdutoRepository extends CrudRepository<Produto, Long>{
+
+}
